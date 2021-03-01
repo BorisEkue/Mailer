@@ -42,3 +42,23 @@ To log into the web application please use these credentials
 #### Login interface
 
 ![Login](screenshots/Login.png)
+
+
+#### Home dashboard
+
+![Home](screenshots/Home.png)
+
+
+#### Emails sent interface
+
+![Emails_sent](screenshots/Sent_mails.png)
+
+
+#### Send new mail interface
+
+![New_Mail](screenshots/New_Mail.png)
+
+
+#### View mail details interface
+
+![View_a_Mail](screenshots/View_a_Mail.png)
