@@ -5,7 +5,7 @@ This project is a front-end web app (Mailer app) built with Vue.js framework and
 ## Set-up instructions
 
 #### 1. Clone the project
-Clone the project from this repository https://github.com/BorisEkue/MiniSend.git
+Clone the project from this repository https://github.com/BorisEkue/Mailer.git
 
 ```
     > git clone https://github.com/BorisEkue/Mailer.git
@@ -18,7 +18,7 @@ Clone the project from this repository https://github.com/BorisEkue/MiniSend.git
 ```
 
 #### 3. Run the project
-By default, the Mailer app will consume the REST API endpoints at the address **'http://localhost:8000'**.
+By default, the Mailer app will consume the REST API endpoints at the address **http://localhost:8000**.
 To change it, please update the file **axios.ts** located at **/src/plugins/axios.ts** at line 10.
 
 To run the project:
@@ -36,3 +36,9 @@ To log into the web application please use these credentials
     login: admin@gmail.com
  Password: admin
 ```
+
+## Some screenshots
+
+#### Login interface
+
+![Login](screenshots/Login.png)
