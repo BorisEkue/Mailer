@@ -7,7 +7,8 @@ import axios, { AxiosRequestConfig } from 'axios'
 // axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
 // axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 
-export const host = 'http://192.168.0.101:8000/api/v1'
+ export const host = 'http://localhost:8000/api/v1'
+
 
 const config: AxiosRequestConfig = {
   baseURL: host,
@@ -91,24 +92,4 @@ export function AxiosPlugin<AxiosPluginOptions> (_Vue: typeof Vue, options?: Axi
 
 Vue.use(AxiosPlugin)
 
-/*
-Plugin.install = function(Vue, options) {
-  Vue.axios = _axios;
-  window.axios = _axios;
-  Object.defineProperties(Vue.prototype, {
-    axios: {
-      get() {
-        return _axios;
-      }
-    },
-    $axios: {
-      get() {
-        return _axios;
-      }
-    },
-  });
-};
 
-Vue.use(Plugin) */
-
-// export default Plugin;
